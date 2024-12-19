@@ -49,4 +49,11 @@ The biggest sales impacts will likely come from increasing product information, 
 
 1. Since there are no photos of the items, add string fields fully describing each item.  This is also a value-adding accessibility feature!  
 2. Enhance user account functionality to allow potential new users to browse items without needing a login.  Requiring a user login to view the products is a barrier that could deter potential new customers, frustrate current customers who've lost their login, and reduce sales.
-3. Allow for personalization of each item with custom text entered by the user at the time of order.  Limit customization to a length appropriate for the size of the item.    
+3. Allow for personalization of each item with custom text entered by the user at the time of order.  Limit customization to a length appropriate for the size of the item.
+
+
+### In Repository: 
+Coding Challenge Deliverables PDF 
+Accounts CSV file
+Products CSV file
+.py Nile code 
