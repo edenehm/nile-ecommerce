@@ -7,28 +7,62 @@ Nile E-Commerce was a fun Python coding challenge!  It included many assumptions
 
 ### Business Problem: 
 
-Jeff Bezos, who started Amazon, has left Amazon to start a new e-commerce site that will be a direct competitor with Amazon but for a niche market - people who work with and/or love technology.  He is calling it Nile (yes, another famous river).  He plans to sell items from these categories: shirts, pants, sweaters, jewelry, and fun stuff.  However, Jeff needs help building the Nile shopping platform from scratch using Python.   
+Jeff Bezos, who started Amazon, has left Amazon to start a new e-commerce site that will be a direct competitor with Amazon but for a niche market - people who work with and/or love technology.  He is calling it Nile (yes, another famous river).  He plans to sell items from these categories: shirts, pants, sweaters, jewelry, and fun stuff.  However, Jeff needs help building the Nile shopping platform.  My task was to create the Nile e-commerce shopping experience, abiding by various assumptions and functional requirements, using Python programming.       
 
 
 ### Methodology: 
 
 1. Understand the business problem, assumptions, and functional requirements.
    
-2. Read in Accounts and Products Data.  
+2. Read in Accounts and Products Data.  Undertand this data.    
 
 3. Sort products by type and item.  Count orders of each product to understand product popularity.  
 
-4. Build login interface to welcome existing users or prompt new users to create an account.  Grant users with an account access to the site or deny access after 2 unsuccessful login attempts.
-
-5. Allow users to pick a category, display items, and shop within that category.  Limit adding to cart to in-stock quantities of each item.
-
-6. Build cart, count items, and total cost.  Allow users to keep shopping, review and edit their cart, or proceed to checkout.
+4. Created functions for the login, shopping, ordering, and checkout processes.
 
 7. Provide a checkout summary that notes which most popular items are purchased.
 
 8. Authorize credit card details.
 
-9. Write understandable messages and instructions for user to navigate the site.  
+9. Write understandable messages and instructions for user to navigate the site.
+
+10. Broke the deliverables and project requirements into smaller coding tasks.  Coded each smaller task, then worked on connecting them together.
+
+11. Run and test code, identifying problems and flaws.
+
+
+### Requirements: 
+- Read in product and account data from .txt files
+  
+- Store product and account information in the program
+  
+- Verify account existence using login criteria
+
+- Lock out users after two incorrect login attempts
+
+- Create new accounts using an account object holding account information
+
+- Display product categories and items
+
+- Ask the user to select the product category and item, accounting for case and spelling errors
+
+- Manage and track item quantities in inventory
+
+- Display out of stock message when needed
+
+- Allow purchasing item multiples if enough stock
+
+- Repeat the process until order is complete
+
+- Display order summary 
+
+- Perform credit card authorization function to randomly generate authorization 
+
+- Update account purchase history
+
+- Identify the most popular items purchased
+
+- Suggest other items based on similar purchasing habits
 
 
 ### Skills:
